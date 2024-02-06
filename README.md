@@ -41,11 +41,11 @@ mvn clean build
 To run the converter, use the generated JAR file:
 
 ```bash
-java -jar "path/to/DsvToJsonl-0.0.1-SNAPSHOT.jar" "path/to/input_file.txt" "path/to/output_file.jsonl"
+java -jar "path/to/DSV-to-JSONL-convertor (2)-0.0.1-SNAPSHOT.jar" "path/to/input_file.txt" "path/to/output_file.jsonl"
 ```
 
 ## Usage
-- **path/to/DsvToJsonl-0.0.1-SNAPSHOT.jar**: The path to the executable JAR file.
+- **path/to/DSV-to-JSONL-convertor (2)-0.0.1-SNAPSHOT.jar**: The path to the executable JAR file.
 - **path/to/input_file.txt**: The path to the input DSV file.
 - **path/to/output_file.jsonl**: The path to the output JSONL file.
 
@@ -53,6 +53,10 @@ java -jar "path/to/DsvToJsonl-0.0.1-SNAPSHOT.jar" "path/to/input_file.txt" "path
 - Both reading input and writing output files are implemented in a streaming manner using the Java Stream API.
 - Ensure the input DSV file adheres to the correct format.
 
-```vbnet
+```
 Replace placeholders like 'path/to/DsvToJsonl-0.0.1-SNAPSHOT.jar', 'path/to/input_file', and 'path/to/output_file.jsonl'
 ```
+
+### Libraries
+- **Joda-Time**: A library for date and time manipulation in Java.
+- **Commons CSV**: A library for working with CSV files in Java.
